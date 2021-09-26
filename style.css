@@ -1,0 +1,643 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    float: left;
+}
+.header_samsung{
+    margin-top: 2%;
+    margin-left: 1.5%;
+}
+.header_samsung h1{
+    color: black;
+    font-size: xx-large;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    display: inline;
+}
+.container ul li a{
+    color: black;
+    margin-left: 1%;
+    padding: 0.9%;
+    text-decoration: none;
+    font-weight:500;
+    font-size: medium;
+}
+.container ul li a:hover{
+    border: 2px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    transition: 2s; 
+} 
+.container ul li img{
+    float:right;
+    width: 2%;
+}
+.section .container{
+    margin-top: 2%;
+    text-align: center;
+}
+.section .container img{
+    width: 95%;
+}
+.section aside{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+
+}
+.section aside h2{
+    font-weight: bold;
+    text-align: center;   
+    margin-top: 50%;
+}
+.section aside p{
+    font-size: 115%;
+}
+.section aside button{
+    border: 0.1px solid black;
+    padding: 2%;
+    padding-left: 7%;
+    border-radius: 17px;
+    padding-right:7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    color: black;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.section aside button:hover{
+    background-color:black;
+    color: white;
+    transition: 2s;
+}
+.section aside a{
+    margin-left: 6%;
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+    padding-left: 7%;
+    border-radius: 17px;
+    padding-right:7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.section aside a:hover{
+    background-color:black;
+    color: white;
+    transition: 2s;
+}
+section .second_hed{
+    margin-top: 2%;
+    margin-left: 35%;
+    text-align: center;
+}
+section .second_hed h1{
+    font-weight: bolder;
+    color: black; 
+}
+section .img{
+    margin-top: 3%;
+    width: 70%;
+    align-items: center;
+    margin-left: 30%;
+    height: 30%;
+}
+section .galaxy{
+    margin-top: 3%;
+}
+section .galaxy span{
+    font-size: 300%;
+    font-weight: bolder;
+    margin-left: 35%;
+    color: black;
+}
+section .galaxy p{
+    margin-left: 35%;
+    font-size: large;
+    color: black;
+}
+section .galaxy{
+    margin-top: 2%;
+
+}
+section .galaxy a{
+    text-align: center;
+    border: 1px solid black;
+    padding:2%;
+    margin-left: 35%;
+    border-radius: 17px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    background-color: black;
+    color: white;
+}
+/* watchs */
+section .watch{
+    width: 50%;
+    margin-left: 45%;
+}
+section .watch img{
+    margin-top: 10%;
+    height: 400px;
+}
+section .watch img:hover{
+    width: 90%;
+    transition: 1.5s;
+}
+section .watch1 span{
+   color: black;
+   font-size: 260%;
+   font-weight: bolder;
+   margin-left: 40%;
+}
+section .watch1 p{
+    margin-left: 40%;
+    font-size: 135%;
+    color: black;
+}
+section .watch1 a{
+    margin-left: 40%;
+    border: 1px solid black;
+    padding: 0.8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 17px;
+    background-color: black;
+    color: white;
+}
+section .center{
+    background-position: center;
+    width:130%;
+    margin-top: 2%;
+}
+section .center img{
+    height: 600px;
+}
+section .appl{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+section .appl span{
+    font-size: 250%;
+    font-weight: bolder;
+    color: black;
+}
+section .appl p{
+    font-size: large;
+    color: black;
+}
+section .appl a{
+    text-align: center;
+    border: 1px solid black;
+    padding:2%;
+    border-radius: 17px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top:1.2%;
+    padding-bottom: 1.2%;
+    background-color: black;
+    color: white;   
+    margin-top: 1%;
+}
+section .search h1{
+    text-align: center;
+    margin-left: 40%;
+    color: black;
+    margin-top: 4%;
+    font-weight:bolder;
+    font-size:300%;
+}
+section .search input{
+    text-align: center;
+    margin-left: 40%;
+    width: 40%;
+    border-radius: 19px;
+    padding: 1%;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+}
+section .search input:hover{
+    background-color: black;
+    color: white;
+    transition: 1.5s;
+}
+section .sp1{
+    font-size: small;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 39%;
+}
+section .sp1 span{
+    border: 1px solid rgb(224, 215, 215);
+    border-radius: 17px;
+    padding: 1%;
+    margin: 0.9%;
+}
+section .sp2{
+    font-size: small;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 39%;
+}
+section .sp2 span{
+    border: 1px solid rgb(224, 215, 215);
+    border-radius: 17px;
+    padding: 1%;
+    margin: 0.9%;   
+}
+section .p1{
+    float: left;
+    margin-top:3%;
+}
+section .p1 p{
+    margin-top: 1%;
+    text-align: justify;
+    margin-left: 12%;
+    padding: .3%;
+}
+section .footer{
+    text-align: center;
+    margin-left: 35%;
+}
+section .footer p{
+    text-align: center;
+    font-size: small;
+}
+
+/* offer.html */
+
+header .heading{
+    text-align: center;
+    background-color: rgb(59, 131, 131);
+}
+header .heading span{
+    color: white;
+    font-size: 160%;
+}
+header .heading p{
+    color: white;
+    font-size: 130%;
+}
+section .img1{
+    text-align: center;
+}
+section .img1 img{
+    width: 100%;
+    height: 667px;
+    background-size: cover;
+}
+section .img1 h1{
+  position: absolute;
+  bottom: 20px;
+  color: black;
+  margin-bottom: 25%;
+  margin-left: 12%;
+  font-size: 220%;
+}
+section .img1 p{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    margin-bottom: 24%;
+    margin-left: 12%;
+    font-size: 139%;
+}
+section h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 300%;
+    color: black;
+}
+section .img2{
+    text-align: center;
+    margin-top: 2.5%;
+}
+section .img2 img{
+    width: 38%;
+}
+section .img2details{
+    text-align: center;
+    margin-top: 1%;
+}
+section .img2details span{
+    font-size: 200%;
+    font-weight: bolder;
+    color: black;
+}
+section .img2dt{
+    text-align: center;
+    margin-top: .7%;
+}
+section .img2dt span{
+    font-size: 150%;
+    margin-left:.6%;
+}
+section .d{
+    text-align: center;
+    margin-top: 1%;
+}
+section .d p{
+    font-size: medium;
+}
+section .d button{
+    padding: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+}
+section .d button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+section .img3{
+    text-align: center;
+    margin-top: 2.5%;
+}
+section .img3 img{
+    width: 36%;
+    height: 400px;
+}
+section .img3details{
+    text-align: center;
+    margin-top: 1%;
+}
+section .img3details span{
+    font-size: 200%;
+    font-weight: bolder;
+    color: black;
+}
+section .img3dt{
+    text-align: center;
+    margin-top: .7%;
+}
+section .img3dt span{
+    font-size: 150%;
+    margin-left:.6%;
+}
+section .d1{
+    text-align: center;
+    margin-top: 1%;
+}
+section .d1 p{
+    font-size: medium;
+}
+section .d1 button{
+    padding: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+}
+section .d1 button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+section .img4{
+    text-align: center;
+    margin-top: 2.5%;
+}
+section .img4 img{
+    width: 36%;
+    height: 400px;
+}
+section .img4details{
+    text-align: center;
+    margin-top: 1%;
+}
+section .img4details span{
+    font-size: 200%;
+    font-weight: bolder;
+    color: black;
+}
+section .img4dt{
+    text-align: center;
+    margin-top: .7%;
+}
+section .img4dt span{
+    font-size: 150%;
+    margin-left:.6%;
+}
+section .d2{
+    text-align: center;
+    margin-top: 1%;
+}
+section .d2 p{
+    font-size: medium;
+}
+section .d2 button{
+    padding: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+}
+section .d2 button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+section .img5{
+    text-align: center;
+    margin-top: 2.5%;
+}
+section .img5 img{
+    width: 36%;
+    height: 340px;
+}
+section .img5details{
+    text-align: center;
+    margin-top: 1%;
+}
+section .img5details span{
+    font-size: 200%;
+    font-weight: bolder;
+    color: black;
+}
+section .img5dt{
+    text-align: center;
+    margin-top: .7%;
+}
+section .img5dt span{
+    font-size: 150%;
+    margin-left:.6%;
+}
+section .d3{
+    text-align: center;
+    margin-top: 1%;
+}
+section .d3 p{
+    font-size: medium;
+}
+section .d3 button{
+    padding: 0.4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 18px;
+}
+section .d3 button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+/* display.html*/
+section .display{
+    text-align: center;
+    margin-top: 20%;
+}
+section .display h1{
+    font-weight: bolder;
+    font-size: 300%;
+}
+section .display p{
+    font-size: large;
+}
+
+
+/*tv.html*/
+section .bgimage img{
+    width: 100%;
+    height: 740px;
+}
+section .bd span{
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    font-size: 190%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 12%;
+}
+section .bd p{
+    bottom: 35%;
+    position: absolute;
+    color: white;
+    margin-left: 12%;
+    font-size: 120%;
+    text-align: center;
+}
+section .bd1 p{
+    bottom: 31%;
+    position: absolute;
+    color: white;
+    margin-left: 12%;
+    font-size: 140%;
+}
+section .bd1 input{
+    bottom: 23%;
+    position: absolute;
+    margin-left: 13%;
+    border-radius: 19px;
+    padding:.7%;
+    width: 33%;
+    font-size: larger;
+}
+section .bd1 input:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+}
+
+/* login.html */
+header .login{
+    margin-top: 2.5%;
+    margin-left: 9%;
+    margin-bottom: 2.5%;
+}
+header .login h2{
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section .jumbotron{
+    text-align: center;
+    border: 1px solid black;
+}
+section .jumbotron span{
+    font-size: 300%;
+    color:black;
+}
+section .jumbotron .login1{
+        margin-top: 5%;
+}
+section .jumbotron .login1 #email{
+    width: 37%;
+    height: 37px;
+    border-radius: 19px;
+    font-size: larger;
+    padding: 1%;
+    padding-top: 1.5%;
+}
+section .jumbotron .login1 #email:hover{
+    background-color: black;
+    color: white;
+    transition: 3s;
+    font-size: 140%;
+}
+section .jumbotron .login1 #pass{
+    width: 37%;
+    height: 37px;
+    border-radius: 19px;
+    font-size: larger;
+    padding: 1%;
+    padding-top: 1.5%;
+    margin-top: 2%;
+}
+section .jumbotron .login1 #pass:hover{
+    background-color: black;
+    color:white;
+    transition: 3s;
+    font-size: 140%;
+}
+section .jumbotron .login1 #rem{
+    margin-top: 1%;
+}
+section .jumbotron .login1 button{
+    margin-top: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    text-align: center;
+    border-radius: 19px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: white;
+}
+section .jumbotron .login1 button:hover{
+    background-color: black;
+    color:white;
+    transition: 3s;
+}
+footer .fot1{
+    text-align: center;
+
+}
+footer .fot1 p{
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

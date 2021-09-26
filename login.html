@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Samsung Login</title>
+</head>
+<body>
+    <header>
+        <div class="login"> 
+        <h2>Samsung Account</h2>
+    </div>
+    </header>
+    <section>
+        <div class="jumbotron">
+                <span>Sign in to your Samsung account</span>
+            <div class="login1">
+                <input type="text" placeholder="Email or Phone number" id="email"><br>
+                <input type="password" placeholder="Password" id="pass"><br>
+                <input type="checkbox" id="rem" onclick="showpassword()">Show Password
+                <br><button onclick="pop()">sign in</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fot1"> 
+        <p>Samsung Account</p>
+        <span>Copyright © 2021-2021 Samsung. All Rights Reserved.</span>
+    </div>
+    </footer>
+
+    <!--java script code-->
+    <script>
+            function showpassword(){
+                var x=document.getElementById('pass');
+                if(x.type==='password')
+                {
+                    x.type="text";
+                }
+                else
+                {
+                    x.type="password";
+                }
+            }
+            function pop(){
+                var x=document.getElementById('pass');
+                if(x.value.length==0)
+                {
+                    window.alert('ohhooo enter the password');
+                }
+                else
+                {
+                    window.alert('Hmmm successfully sign in! lovely');
+                }
+            }
+    </script>
+</body>
+</html>
